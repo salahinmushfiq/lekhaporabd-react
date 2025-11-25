@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Website created with React and Create React App" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-4zy8s5CJWQqBv9Dq2nTWCEjD5xZH7ScZElxzJS6DEKcbAHYJG6ZBlM2B8OyDxRY7F+IroG+z5/jfKw1B1z/6zQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+    <!-- Metadata for Progressive Web App functionality -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Explanation of %PUBLIC_URL%:
+      %PUBLIC_URL% is a placeholder that will be replaced with the URL of the `public` folder during the build process.
+      This ensures that resources can be referenced correctly regardless of the app's deployment location.
+    -->
+    <title>My React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!--
+      Notes:
+      - This file acts as the main HTML template for the React app.
+      - It is used as the container for the React component tree, which will be injected into <div id="root"></div>.
+      - If opened directly in a browser, only a blank page will be displayed because React will not be loaded.
+
+      Development:
+      - Run `npm start` or `yarn start` to begin development.
+      - Use `npm run build` or `yarn build` to create a production build.
+
+      Customizations:
+      - Add custom fonts, additional meta tags, or web analytics as needed.
+      - The bundled JavaScript and CSS files will be automatically included in the final build and placed in this <body> tag.
+    -->
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true, // run animation only once when scrolling down
+    duration: 800, // animation duration in ms
+    offset: 100, // offset (in px) from original trigger point
+  });
+</script>
+  </body>
+</html>
