@@ -156,7 +156,7 @@ You may reuse components or patterns with attribution.
 ## 👨‍💻 Author
 **Mushfiq Us Salahin**  
 Frontend Engineer | React & Next.js | Tailwind | Django | Flutter  
-🔗 (Add GitHub/Portfolio if you want)
+🔗 (https://github.com/salahinmushfiq/[Portfolio if you want](https://ngsoftworks.netlify.app/))
 
 ---
 
